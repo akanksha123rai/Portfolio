@@ -1,5 +1,6 @@
 import { Outfit,Ovo } from "next/font/google";
 import "./globals.css";
+import { ReactNode } from "react";
 
 const outfit = Outfit({
   subsets: ["latin"],
@@ -17,7 +18,7 @@ export const metadata = {
   description: "",
 };
 
-export default function RootLayout({children}) {
+export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en" className="scroll-smooth">
       <body
