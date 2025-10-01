@@ -34,7 +34,7 @@ const Header = () => {
             whileInView={{opacity:1}}
             transition={{duration:0.6,delay:0.7}}
             className='max-w-2xl mx-auto font-Ovo'>
-                I have completed my Bachelor’s degree in Computer Engineering from Bajaj Institute of Technology.
+                I have completed my Bachelor’s degree in Computer Science from Bajaj Institute of Technology.
                 I am proficient in HTML, CSS, JavaScript, React.js, and Java programming.
                 I have the ability to work effectively in a team environment and collaborate with cross-functional teams.
                 I possess strong problem-solving skills and can identify solutions for complex engineering challenges.
@@ -52,7 +52,7 @@ const Header = () => {
                 initial={{y:30,opacity:0}}
                 whileInView={{y:0,opacity:1}}
                 transition={{duration:0.6,delay:1.2}} 
-                href='/resumeup.pdf' download className='px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2'>
+                href='/Akanksharai_frontend dev.pdf' download className='px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2'>
                     My Resume 
                     <Image src={assets.download_icon} alt='' className='w-4' />
                 </motion.a>
